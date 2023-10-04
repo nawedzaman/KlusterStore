@@ -1,25 +1,58 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import HomePage from './components/HomePage';
+import BooksPage from './components/BooksPage';
+import AuthorsPage from './components/AuthorsPage';
+import BookDetailsPage from './components/BookDetailsPage';
+import ShoppingCart from './components/ShoppingCart';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
-function App() {
+
+const AppLayout = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+        <Header/>
+        <Outlet/>
+        <Footer/>
+    </>
+ 
+  );
+};
+const appRouter = createBrowserRouter([
+  {
+    path: "/", 
+    element: <AppLayout />, 
+    //errorElement: <Error />, 
+    children: [
+      {
+        path: "/",
+        element: <HomePage />,
+      },
+      {
+        path: "/books",
+        element: <BooksPage />,
+      },
+      {
+        path: "/authors",
+        element: <AuthorsPage />,
+      },
+      {
+        path: "/cart",
+        element: <ShoppingCart />,
+      },
+      {
+        path: "/book/:bookId",
+        element: <BookDetailsPage />,
+      },
+    ],
+  },
+]);
+
+export default function App(props) {
+  return (
+    <div className='App'>
+      <RouterProvider router={appRouter} />
     </div>
   );
 }
-
-export default App;
