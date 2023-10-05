@@ -1,5 +1,4 @@
 import React, { useState,useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import bookData from '../data/book-data.json';
 import BookList from './BookList';
 import BookFilter from './BookFilter';
@@ -7,8 +6,8 @@ import BookFilter from './BookFilter';
 const BooksPage = () => {
   const [books, setBooks] = useState([]);
   const [filters, setFilters] = useState({
-    genre: '',
-    author: '',
+    genres: [],
+    authors: [],
   });
 console.log(bookData)
   // Fetch the list of books from the backend API
@@ -18,19 +17,14 @@ console.log(bookData)
 
 
   // Handle filter changes
-  const handleFilterChange = (event) => {
-    const { name, value } = event.target;
-
-    setFilters({
-      ...filters,
-      [name]: value,
-    });
+  const handleFilterChange = (updatedFilters) => {
+    setFilters(updatedFilters);
   };
 
   // Get the filtered list of books
   const filteredBooks = books.filter((book) => {
-    const genreMatch = filters.genre === '' || book.genre === filters.genre;
-    const authorMatch = filters.author === '' || book.author === filters.author;
+    const genreMatch = filters.genres.length === 0 || filters.genres.includes(book.genre);
+    const authorMatch = filters.authors.length === 0 || filters.authors.includes(book.author);
 
     return genreMatch && authorMatch;
   });
@@ -40,7 +34,7 @@ console.log(books)
     <div className="books-page">
       <h1>Books</h1>
 
-      <BookFilter filters={filters} onChange={handleFilterChange} />
+      <BookFilter  books={books} filters={filters}  onChange={handleFilterChange} />
       
       {books===null ? (
         <h1>Loading...</h1>
