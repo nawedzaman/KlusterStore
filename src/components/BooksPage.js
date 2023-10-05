@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react';
 import bookData from '../data/book-data.json';
-import BookList from './BookList';
+import Book from './Book';
 import BookFilter from './BookFilter';
 
 const BooksPage = () => {
@@ -38,9 +38,11 @@ console.log(books)
       
       {books===null ? (
         <h1>Loading...</h1>
-      ) : (
-       
-         <BookList books={filteredBooks} />
+      ) : ( <div className="book-list">
+      {filteredBooks.map((book) => (
+        <Book key={book.id} book={book} />
+      ))}
+    </div>
       )} 
     </div>
   );
