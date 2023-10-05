@@ -9,7 +9,7 @@ const BookFilter = ({ books, filters, onChange }) => {
   useEffect(() => {
     // Extract unique genres and authors from bookData
     const genres = [...new Set(books.map(book => book.genre))];
-    const authors = [...new Set(books.map(book => book.author))];
+    const authors = [...new Set(books.map(book => book.author.name))];
     setUniqueGenres(genres);
     setUniqueAuthors(authors);
   }, [books]);  

@@ -24,7 +24,7 @@ console.log(bookData)
   // Get the filtered list of books
   const filteredBooks = books.filter((book) => {
     const genreMatch = filters.genres.length === 0 || filters.genres.includes(book.genre);
-    const authorMatch = filters.authors.length === 0 || filters.authors.includes(book.author);
+    const authorMatch = filters.authors.length === 0 || filters.authors.includes(book.author.name);
 
     return genreMatch && authorMatch;
   });
