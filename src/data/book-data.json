@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "coverImage": "https://example.com/book-cover.jpg",
+      "description": "An epic high fantasy trilogy written by English philologist and University of Oxford professor J.R.R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, with much of it being written during World War II, it was originally published in three volumes in 1954 and 1955. It has since been reprinted numerous times and translated into at least 38 languages, becoming one of the best-selling novels ever written."
+    },
+    {
+      "id": 2,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "genre": "Fantasy",
+      "coverImage": "https://example.com/book-cover-2.jpg",
+      "description": "The first novel in the Harry Potter series and Rowling's debut novel, it follows the adventures of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry."
+    },
+    {
+      "id": 3,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Coming-of-age",
+      "coverImage": "https://example.com/book-cover-3.jpg",
+      "description": "A Pulitzer Prize-winning novel that tells the story of Scout Finch, a young girl living in the American South during the Great Depression. Scout's father, Atticus Finch, is a lawyer who defends a black man falsely accused of rape."
+    },
+    {
+      "id": 4,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "coverImage": "https://example.com/book-cover-4.jpg",
+      "description": "A romantic novel that tells the story of Elizabeth Bennet, a young woman who must decide whether or not to marry a wealthy suitor, Mr. Darcy."
+    },
+    {
+      "id": 5,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "coverImage": "https://example.com/book-cover-5.jpg",
+      "description": "A dystopian novel that tells the story of Winston Smith, a man who lives in a totalitarian society where the government controls every aspect of people's lives."
+    }
+  ]
+  
