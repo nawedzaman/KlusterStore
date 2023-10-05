@@ -7,15 +7,18 @@ import BookDetailsPage from './components/BookDetailsPage';
 import ShoppingCart from './components/ShoppingCart';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import { BookProvider } from './components/BookContext';
 
 
 const AppLayout = () => {
   return (
+    <BookProvider>
     <>
-        <Header/>
-        <Outlet/>
-        <Footer/>
+      <Header/>
+      <Outlet/>
+      <Footer/>
     </>
+  </BookProvider>
  
   );
 };

@@ -53,5 +53,223 @@
     "genre": "Dystopian",
     "coverImage": "https://example.com/book-cover-5.jpg",
     "description": "A dystopian novel that tells the story of Winston Smith, a man who lives in a totalitarian society where the government controls every aspect of people's lives."
+  },{
+    "id": 6,
+    "title": "The Great Gatsby",
+    "author": {
+      "name": "F. Scott Fitzgerald",
+      "image": "https://example.com/author-f-scott-fitzgerald.jpg"
+    },
+    "genre": "Classics",
+    "coverImage": "https://example.com/book-cover-6.jpg",
+    "description": "A novel set in the summer of 1922 about the young and mysterious millionaire Jay Gatsby and his passion for the beautiful Daisy Buchanan."
+  },
+  {
+    "id": 7,
+    "title": "Brave New World",
+    "author": {
+      "name": "Aldous Huxley",
+      "image": "https://example.com/author-aldous-huxley.jpg"
+    },
+    "genre": "Dystopian",
+    "coverImage": "https://example.com/book-cover-7.jpg",
+    "description": "A dystopian novel that explores the dangers of a technologically advanced and highly controlled society."
+  },
+  {
+    "id": 8,
+    "title": "The Catcher in the Rye",
+    "author": {
+      "name": "J.D. Salinger",
+      "image": "https://example.com/author-jd-salinger.jpg"
+    },
+    "genre": "Coming-of-age",
+    "coverImage": "https://example.com/book-cover-8.jpg",
+    "description": "A novel narrated by a teenage boy who is disenchanted with the world and struggling to find his place in it."
+  },
+  {
+    "id": 9,
+    "title": "Moby Dick",
+    "author": {
+      "name": "Herman Melville",
+      "image": "https://example.com/author-herman-melville.jpg"
+    },
+    "genre": "Adventure",
+    "coverImage": "https://example.com/book-cover-9.jpg",
+    "description": "An epic tale of obsession and revenge, centered around Captain Ahab's quest to kill the monstrous white whale Moby Dick."
+  },
+  {
+    "id": 10,
+    "title": "The Hobbit",
+    "author": {
+      "name": "J.R.R. Tolkien",
+      "image": "https://example.com/author-jrr-tolkien.jpg"
+    },
+    "genre": "Fantasy",
+    "coverImage": "https://example.com/book-cover-10.jpg",
+    "description": "A fantasy novel about the journey of Bilbo Baggins, a hobbit, who is persuaded to accompany a group of dwarves to reclaim their homeland from a dragon."
+  },
+  {
+    "id": 11,
+    "title": "The Shining",
+    "author": {
+      "name": "Stephen King",
+      "image": "https://example.com/author-stephen-king.jpg"
+    },
+    "genre": "Horror",
+    "coverImage": "https://example.com/book-cover-11.jpg",
+    "description": "A horror novel that follows the story of a family that becomes the winter caretakers of an isolated hotel, where supernatural forces lead to terrifying events."
+  },
+  {
+    "id": 12,
+    "title": "The Picture of Dorian Gray",
+    "author": {
+      "name": "Oscar Wilde",
+      "image": "https://example.com/author-oscar-wilde.jpg"
+    },
+    "genre": "Gothic",
+    "coverImage": "https://example.com/book-cover-12.jpg",
+    "description": "A gothic novel that tells the story of a man who remains youthful and handsome while a portrait of him ages and reflects his inner ugliness."
+  },
+  {
+    "id": 13,
+    "title": "A Tale of Two Cities",
+    "author": {
+      "name": "Charles Dickens",
+      "image": "https://example.com/author-charles-dickens.jpg"
+    },
+    "genre": "Historical Fiction",
+    "coverImage": "https://example.com/book-cover-13.jpg",
+    "description": "A historical novel set during the French Revolution, depicting the plight of the French peasantry."
+  },
+  {
+    "id": 14,
+    "title": "The Road",
+    "author": {
+      "name": "Cormac McCarthy",
+      "image": "https://example.com/author-cormac-mccarthy.jpg"
+    },
+    "genre": "Post-Apocalyptic",
+    "coverImage": "https://example.com/book-cover-14.jpg",
+    "description": "A post-apocalyptic novel that follows a father and son's journey through a devastated landscape."
+  },
+  {
+    "id": 15,
+    "title": "The Girl on the Train",
+    "author": {
+      "name": "Paula Hawkins",
+      "image": "https://example.com/author-paula-hawkins.jpg"
+    },
+    "genre": "Thriller",
+    "coverImage": "https://example.com/book-cover-15.jpg",
+    "description": "A psychological thriller that weaves a gripping story of love, obsession, and deception."
+  },{
+    "id": 16,
+    "title": "Animal Farm",
+    "author": {
+      "name": "George Orwell",
+      "image": "https://example.com/author-george-orwell.jpg"
+    },
+    "genre": "Political Allegory",
+    "coverImage": "https://example.com/book-cover-16.jpg",
+    "description": "A novella that uses a group of farm animals who rebel against their human farmer as an allegory of the events leading up to the Russian Revolution of 1917 and the early years of the Soviet Union."
+  },
+  {
+    "id": 17,
+    "title": "The Silmarillion",
+    "author": {
+      "name": "J.R.R. Tolkien",
+      "image": "https://example.com/author-jrr-tolkien.jpg"
+    },
+    "genre": "Fantasy",
+    "coverImage": "https://example.com/book-cover-17.jpg",
+    "description": "A collection of mythopoeic works that tells the story of the creation and early history of the world of Middle-earth, the setting of many of Tolkien's works."
+  },
+  {
+    "id": 18,
+    "title": "The Casual Vacancy",
+    "author": {
+      "name": "J.K. Rowling",
+      "image": "https://example.com/author-jk-rowling.jpg"
+    },
+    "genre": "Drama",
+    "coverImage": "https://example.com/book-cover-18.jpg",
+    "description": "A novel for adults that explores the lives of the residents of a small English town after the death of a parish councilor."
+  },
+  {
+    "id": 19,
+    "title": "Go Set a Watchman",
+    "author": {
+      "name": "Harper Lee",
+      "image": "https://example.com/author-harper-lee.jpg"
+    },
+    "genre": "Coming-of-age",
+    "coverImage": "https://example.com/book-cover-19.jpg",
+    "description": "A novel set in the mid-1950s, providing a sequel to Lee's famous novel 'To Kill a Mockingbird', portraying the later lives of the characters from the original work."
+  },
+  {
+    "id": 20,
+    "title": "Emma",
+    "author": {
+      "name": "Jane Austen",
+      "image": "https://example.com/author-jane-austen.jpg"
+    },
+    "genre": "Romance",
+    "coverImage": "https://example.com/book-cover-20.jpg",
+    "description": "A novel that follows the story of Emma Woodhouse, a young woman who is determined to be a matchmaker and meddle in the romantic affairs of others."
+  },
+  {
+    "id": 21,
+    "title": "Nineteen Eighty-Four",
+    "author": {
+      "name": "George Orwell",
+      "image": "https://example.com/author-george-orwell.jpg"
+    },
+    "genre": "Dystopian",
+    "coverImage": "https://example.com/book-cover-21.jpg",
+    "description": "A dystopian novel that explores a totalitarian society where critical thought is suppressed under the all-seeing eye of Big Brother."
+  },
+  {
+    "id": 22,
+    "title": "The Hobbit: The Desolation of Smaug",
+    "author": {
+      "name": "J.R.R. Tolkien",
+      "image": "https://example.com/author-jrr-tolkien.jpg"
+    },
+    "genre": "Fantasy",
+    "coverImage": "https://example.com/book-cover-22.jpg",
+    "description": "A fantasy novel that continues the journey of Bilbo Baggins as he and a group of dwarves seek to reclaim their homeland from the fearsome dragon Smaug."
+  },
+  {
+    "id": 23,
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "author": {
+      "name": "J.K. Rowling",
+      "image": "https://example.com/author-jk-rowling.jpg"
+    },
+    "genre": "Fantasy",
+    "coverImage": "https://example.com/book-cover-23.jpg",
+    "description": "The third novel in the Harry Potter series, following the adventures of Harry, Hermione, and Ron as they uncover the mystery of Sirius Black."
+  },
+  {
+    "id": 24,
+    "title": "To Kill a Mockingbird: Collector's Edition",
+    "author": {
+      "name": "Harper Lee",
+      "image": "https://example.com/author-harper-lee.jpg"
+    },
+    "genre": "Coming-of-age",
+    "coverImage": "https://example.com/book-cover-24.jpg",
+    "description": "A collector's edition of the Pulitzer Prize-winning novel that delves into themes of racial injustice and moral growth in the American South."
+  },
+  {
+    "id": 25,
+    "title": "Pride and Prejudice and Zombies",
+    "author": {
+      "name": "Jane Austen",
+      "image": "https://example.com/author-jane-austen.jpg"
+    },
+    "genre": "Horror",
+    "coverImage": "https://example.com/book-cover-25.jpg",
+    "description": "A parody novel that combines the classic Jane Austen story with elements of zombie fiction, adding an undead twist to the beloved tale."
   }
 ]

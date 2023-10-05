@@ -40,7 +40,7 @@ console.log(books)
         <h1>Loading...</h1>
       ) : ( <div className="book-list">
       {filteredBooks.map((book) => (
-        <Book key={book.id} book={book} />
+        <Book key={book.id} book={book}  />
       ))}
     </div>
       )} 
