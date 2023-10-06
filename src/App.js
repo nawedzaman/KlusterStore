@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css"
+import "./index.css";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import BooksPage from "./components/BooksPage";
@@ -8,21 +8,22 @@ import BookDetailsPage from "./components/BookDetailsPage";
 import ShoppingCart from "./components/ShoppingCart";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Signup from "./auth/signUp";
+import Login from "./auth/login";
 import { BookProvider } from "./components/BookContext";
-import { Provider } from 'react-redux';
-import store from './components/store';
-
-
+import { Provider } from "react-redux";
+import store from "./components/store";
+import { Protected } from "./auth/Protected";
 const AppLayout = () => {
   return (
     <Provider store={store}>
-    <BookProvider>
+      <BookProvider>
         <>
           <Header />
           <Outlet />
           <Footer />
         </>
-    </BookProvider>
+      </BookProvider>
     </Provider>
   );
 };
@@ -34,23 +35,48 @@ const appRouter = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <HomePage />,
+        element: (
+            <HomePage />
+        ),
       },
       {
         path: "/books",
-        element: <BooksPage />,
+        element: (
+          
+            <BooksPage />
+        
+        ),
       },
       {
         path: "/authors",
-        element: <AuthorsPage />,
+        element: (
+       
+            <AuthorsPage />
+          
+        ),
       },
       {
         path: "/cart",
-        element: <ShoppingCart />,
+        element: (
+          <Protected>
+            <ShoppingCart />
+          </Protected>
+        ),
       },
       {
         path: "/book/:bookId",
-        element: <BookDetailsPage />,
+        element: (
+             <BookDetailsPage />
+        
+        ),
+      },
+      {
+        path: "/signup",
+        element: <Signup />,
+      },
+      {
+        path: "/login",
+        element: <Login />,
       },
     ],
   },

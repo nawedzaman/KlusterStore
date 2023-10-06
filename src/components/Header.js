@@ -5,6 +5,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import AuthButton from '../auth/authButton' 
 
 const Header = () => {
   // Get the cart items from Redux store
@@ -21,8 +22,11 @@ console.log(cartItems);
         <li><Link to="/authors">Authors</Link></li>
         <li>
           <Link to="/cart">
-            Cart <span>{totalItemsInCart}</span>
+             Cart {totalItemsInCart > 0 && <span>{totalItemsInCart}</span>}
           </Link>
+        </li>
+        <li>
+          <AuthButton/>
         </li>
       </ul>
     </nav>
