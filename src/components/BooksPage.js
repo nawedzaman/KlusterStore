@@ -2,6 +2,7 @@ import React, { useState,useEffect } from 'react';
 import bookData from '../data/book-data.json';
 import Book from './Book';
 import BookFilter from './BookFilter';
+import './Book.css'
 
 const BooksPage = () => {
   const [books, setBooks] = useState([]);
@@ -30,8 +31,8 @@ console.log(bookData)
   });
 console.log(books)
   return (
-   
-    <div className="books-page">
+   <div className="books-container">
+<div className="books-page">
       <h1>Books</h1>
 
       <BookFilter  books={books} filters={filters}  onChange={handleFilterChange} />
@@ -45,6 +46,8 @@ console.log(books)
     </div>
       )} 
     </div>
+   </div>
+    
   );
 };
 

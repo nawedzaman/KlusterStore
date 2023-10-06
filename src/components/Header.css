@@ -1,0 +1,86 @@
+/* Styles for the navigation bar */
+nav {
+    background-color: rgba(68, 63, 63, 0);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+   
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  li:last-child {
+    margin-right: 0;
+  }
+  
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  span {
+    color: black;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 5px;
+  }
+  
+  /* Styles for the authentication button */
+  .authButton {
+    display: flex;
+    align-items: center;
+  }
+  
+  .authButton button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .authButton button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styles for responsiveness */
+  
+  /* Small screens */
+  @media (max-width: 576px) {
+    nav {
+      padding: 10px;
+      justify-content: center;
+    }
+  
+    ul {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    li {
+      display: block;
+      margin: 0;
+      padding: 10px 0;
+    }
+  
+    li:last-child {
+      margin-bottom: 10px; /* Add margin to separate the last item */
+    }
+  }
+  

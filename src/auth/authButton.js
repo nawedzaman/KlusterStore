@@ -43,7 +43,7 @@ const AuthButton = () => {
     <div>
       {authenticated ? (
         <>
-        <button onClick={handleLogout}>Logout</button><span>{userName}</span>
+        <span>Hi, {userName}</span><button onClick={handleLogout}>Logout</button>
         </>
         
       ) : (

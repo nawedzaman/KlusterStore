@@ -17,7 +17,7 @@ const Signup = () => {
             // Signed in
             const user = userCredential.user;
             console.log(user);
-            navigate("/login")
+            navigate("/")
             
         })
         .catch((error) => {
@@ -67,7 +67,8 @@ const Signup = () => {
                         
                         <button
                             type="submit" 
-                            onClick={onSubmit}                        
+                            onClick={onSubmit} 
+                            className='signup'                       
                         >  
                             Sign up                                
                         </button>
