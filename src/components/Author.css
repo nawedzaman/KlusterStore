@@ -1,22 +1,22 @@
-.author {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
-    margin: 10px;
-  }
+.autho-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.author-data img {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  object-fit: cover;
+  border-radius: 50%; /* Optional: round the image */
   
-  .author img {
-    width: 100px; /* Adjust the width as needed */
-    height: 100px; /* Adjust the height as needed */
-    object-fit: cover;
-    border-radius: 50%; /* Optional: round the image */
-    
-  }
-  
-  .author h3 {
-    margin-top: 10px;
-    font-size: 18px;
-    text-align: center;
-  }
+}
+
+.author-data h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
   

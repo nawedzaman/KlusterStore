@@ -23,19 +23,25 @@ const BookDetailsPage = () => {
 
   return (
     <div className="book-details">
-      <img src={coverImage} alt={title} />
-      <h2>Title: {title}</h2>
-      <h3>Author: {author.name}</h3>
-      <p>Genre: {genre}</p>
-      <p>Description: {description}</p>
+      <div className="image-container">
+        <img src={coverImage} alt={title} />
+      </div>
+      <div className="content-container">
+        <h2>Title: {title}</h2>
+        <h3>Author: {author.name}</h3>
+        <p>Genre: {genre}</p>
+        <p>Description: {description}</p>
 
-      {addedToCart || cart.some((item) => item.id === selectedBook.id) ? (
-        <Link to="/cart">Go to Cart</Link>
-      ) : (
-        <button onClick={() => handleAddToCart(selectedBook)}>
-          Add to Cart
-        </button>
-      )}
+        <div className="add-to-cart">
+          {addedToCart || cart.some((item) => item.id === selectedBook.id) ? (
+            <Link to="/cart" className="cart-link">Go to Cart</Link>
+          ) : (
+            <button onClick={() => handleAddToCart(selectedBook)} className="add-button">
+              Add to Cart
+            </button>
+          )}
+        </div>
+      </div>
     </div>
   );
 };

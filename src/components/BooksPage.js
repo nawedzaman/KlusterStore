@@ -36,13 +36,14 @@ const BooksPage = () => {
     <div className="books-container">
       <div className="books-page">
         <h1>Books</h1>
-        <div className="book-content">
           <BookFilter
             books={books}
             filters={filters}
             onChange={handleFilterChange}
           />
-
+      </div>
+      <div className="card-details-css">
+        <div>
           {books === null ? (
             <h1>Loading...</h1>
           ) : (

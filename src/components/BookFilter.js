@@ -12,7 +12,7 @@ const BookFilter = ({ books, filters, onChange }) => {
     const authors = [...new Set(books.map(book => book.author.name))];
     setUniqueGenres(genres);
     setUniqueAuthors(authors);
-  }, [books]);  
+  }, [books]);
 
   const toggleGenre = () => {
     setGenreExpanded(prevExpanded => !prevExpanded);
@@ -44,9 +44,11 @@ const BookFilter = ({ books, filters, onChange }) => {
   return (
     <div className="sidebar">
       <h2>Refine by</h2>
-<div className="options">
-<div className="genre">
-Genre <button key="genreButton" onClick={toggleGenre}>{genreExpanded ? '-' : '+'}</button>
+      <div className="options">
+        <div className="genre">
+         <div>
+         Genre <button key="genreButton" onClick={toggleGenre}>{genreExpanded ? '-' : '+'}</button>
+          </div> 
           {genreExpanded && (
             <ul className="genreMenu">
               {uniqueGenres.map((genre, index) => (
@@ -65,9 +67,9 @@ Genre <button key="genreButton" onClick={toggleGenre}>{genreExpanded ? '-' : '+'
               ))}
             </ul>
           )}
-</div>
-<div className="author">
-Author <button key="authorButton" onClick={toggleAuthor}>{authorExpanded ? '-' : '+'}</button>
+        </div>
+        <div className="author">
+          Author <button key="authorButton" onClick={toggleAuthor}>{authorExpanded ? '-' : '+'}</button>
           {authorExpanded && (
             <ul className="authorMenu">
               {uniqueAuthors.map((author, index) => (
@@ -86,13 +88,13 @@ Author <button key="authorButton" onClick={toggleAuthor}>{authorExpanded ? '-' :
               ))}
             </ul>
           )}
+        </div>
+      </div>
     </div>
-</div>
-</div>
 
-         
 
-          
+
+
   );
 };
 
