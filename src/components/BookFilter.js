@@ -44,9 +44,9 @@ const BookFilter = ({ books, filters, onChange }) => {
   return (
     <div className="sidebar">
       <h2>Refine by</h2>
-      <ul>
-        <li>
-          Genre <button key="genreButton" onClick={toggleGenre}>{genreExpanded ? '-' : '+'}</button>
+<div className="options">
+<div className="genre">
+Genre <button key="genreButton" onClick={toggleGenre}>{genreExpanded ? '-' : '+'}</button>
           {genreExpanded && (
             <ul className="genreMenu">
               {uniqueGenres.map((genre, index) => (
@@ -65,9 +65,9 @@ const BookFilter = ({ books, filters, onChange }) => {
               ))}
             </ul>
           )}
-        </li>
-        <li>
-          Author <button key="authorButton" onClick={toggleAuthor}>{authorExpanded ? '-' : '+'}</button>
+</div>
+<div className="author">
+Author <button key="authorButton" onClick={toggleAuthor}>{authorExpanded ? '-' : '+'}</button>
           {authorExpanded && (
             <ul className="authorMenu">
               {uniqueAuthors.map((author, index) => (
@@ -86,9 +86,13 @@ const BookFilter = ({ books, filters, onChange }) => {
               ))}
             </ul>
           )}
-        </li>
-      </ul>
     </div>
+</div>
+</div>
+
+         
+
+          
   );
 };
 

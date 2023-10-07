@@ -1,10 +1,11 @@
 import React from 'react';
 
 const Author = ({ author,onAuthorClick }) => {
+  console.log(author)
   return (
-    <div className="book" onClick={onAuthorClick}>
-      <img src={author?.coverImage} alt={author?.title} />
-      <h3>{author}</h3>
+    <div className="author" onClick={onAuthorClick}>
+      <img src={author?.image} alt={author?.title} />
+      <h3>{author.name}</h3>
     </div>
   );
 };

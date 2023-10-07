@@ -22,7 +22,7 @@ const HomePage = () => {
         </div>
         <div className="welcome-img">
           <img
-            src="https://images.unsplash.com/photo-1578511161102-485cc0775c6b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+            src="https://ik.imagekit.io/qzwxtlokd/norbert-toth-I1oL89qxefc-unsplash.jpg?updatedAt=1696663253720"
             alt=""
           />
         </div>
