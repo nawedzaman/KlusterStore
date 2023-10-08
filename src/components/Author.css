@@ -94,13 +94,15 @@
   background: none;
   border: none;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 70px;
 }
 
 .close-button:focus {
   outline: none;
 }
-
+.close-button:hover {
+  background: none;
+}
 /* Adjustments for smaller screens */
 @media (max-width: 768px) {
   .author-card {

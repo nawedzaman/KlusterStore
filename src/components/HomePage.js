@@ -29,7 +29,7 @@ const HomePage = () => {
       </div>
       <div className="featured">
         <FeaturedBook />
-        <button onClick={routeChange}>Browse all </button>
+        <button onClick={routeChange}>See More </button>
       </div>
     </div>
   );

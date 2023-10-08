@@ -59,27 +59,29 @@ const AuthorsPage = () => {
           )}
         </div>
       </div>
-        <Modal
-          isOpen={isModalOpen}
-          onRequestClose={closeModal}
-          contentLabel="Books Modal"
-          className="modal-content" // Apply the custom modal CSS class
-          overlayClassName="modal-overlay" // Apply overlay class if needed
-        >
-          {selectedAuthor && (
-            <>
-              <div className="author-name">
-                <h3>Books by {selectedAuthor.name}</h3>
-              </div>
-              <ul>
-                {getBooksByAuthor(selectedAuthor.name).map((book) => (
-                  <Book key={book.id} book={book} />
-                ))}
-              </ul>
-            </>
-          )}
-          <button onClick={closeModal}>Close Modal</button>
-        </Modal>
+         <Modal
+      isOpen={isModalOpen}
+      onRequestClose={closeModal}
+      contentLabel="Books Modal"
+      className="modal-content" 
+      overlayClassName="modal-overlay"
+    >
+      {selectedAuthor && (
+        <>
+          <div className="modal-header">
+            {/* <h3>Books by {selectedAuthor.name}</h3> */}
+            <button onClick={closeModal} className="close-button">
+              &#215;
+            </button>
+          </div>
+          <ul>
+            {getBooksByAuthor(selectedAuthor.name).map((book) => (
+              <Book key={book.id} book={book} />
+            ))}
+          </ul>
+        </>
+      )}
+    </Modal>
     </>
   );
 };
