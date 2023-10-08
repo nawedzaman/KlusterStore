@@ -1,28 +1,3 @@
-// import React, { useContext } from 'react';
-// import { useNavigate } from "react-router-dom";
-// import { BookContext } from './BookContext'; 
-
-// const Book = ({ book }) => {
-//   const { selectBook } = useContext(BookContext);
-
-//   const navigate = useNavigate();
-//   const routeChange = () => {
-//     selectBook(book)
-//     let path = `/book/${encodeURIComponent(book.title)}`;
-//     navigate(path, { state: { book } });
-//   };
-//   return (
-//     <div className="book" onClick={routeChange}>
-//       <img src={book?.coverImage} alt={book?.title} />
-//       <h3>{book?.title}</h3>
-//       <p>${book?.price}</p>
-//       <p>{book?.author?.name}</p>
-//       <p>{book?.genre}</p>
-//     </div>
-//   );
-// };
-
-// export default Book;
 import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { BookContext } from './BookContext';

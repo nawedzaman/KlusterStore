@@ -1,22 +1,115 @@
-.autho-data {
+.author-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping to the next line */
+  justify-content: space-between; /* Space between the cards */
+  padding: 100px;
+}
+
+.author-card {
+  width: calc(25% - 20px); /* Set the width for each card (minus margin) for 3 cards per line */
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 40px;
   cursor: pointer;
-  margin: 10px;
+  transition: transform 0.3s;
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color:  #757171;
+  border-color: #ccc;
+  color:white;
+    /* Shadows and borders */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+
+    /* Animations */
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
 }
 
-.author-data img {
-  width: 100px; /* Adjust the width as needed */
-  height: 100px; /* Adjust the height as needed */
-  object-fit: cover;
-  border-radius: 50%; /* Optional: round the image */
-  
+.author-card:hover {
+  transform: scale(1.05);
 }
 
-.author-data h3 {
-  margin-top: 10px;
-  font-size: 18px;
+.author-image {
+  width: 200px; /* Fixed width */
+  height: 200px; /* Fixed height */
+  overflow: hidden; /* Hide overflowing content */
+  border-radius: 50%; /* Circular effect */
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+  border: 5px solid #fff;
+}
+
+.author-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+}
+
+.author-info h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
   text-align: center;
 }
-  
+/*Modal CSS */
+/* Modal overlay styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal styles */
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 80%;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Modal header styles */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Close button styles */
+.close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.close-button:focus {
+  outline: none;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .author-card {
+    width: calc(50% - 20px); /* For 2 cards per line on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .author-card {
+    width: 100%; /* For 1 card per line on even smaller screens */
+  }
+}

@@ -4,10 +4,11 @@
     "title": "The Lord of the Rings",
     "author": {
       "name": "J.R.R. Tolkien",
-      "image": "https://ik.imagekit.io/qzwxtlokd/J._R._R._Tolkien,_ca._1925.jpg?updatedAt=1696668329153"
+      "image": "https://ik.imagekit.io/qzwxtlokd/J._R._R._Tolkien,_ca._1925.jpg?updatedAt=1696668329153",
+      "description": "John Ronald Reuel Tolkien (1892-1973) was an English writer, poet, philologist, and academic. He is best known as the author of 'The Hobbit' and 'The Lord of the Rings' trilogy, considered the foundations of modern fantasy literature."
     },
     "genre": "Fantasy",
-    "price":240,
+    "price": 240,
     "coverImage": "https://ashokbookcentre.com/wp-content/uploads/2021/12/81YyraOaX1L-768x1165.jpg",
     "description": "An epic high fantasy trilogy written by English philologist and University of Oxford professor J.R.R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, with much of it being written during World War II, it was originally published in three volumes in 1954 and 1955. It has since been reprinted numerous times and translated into at least 38 languages, becoming one of the best-selling novels ever written."
   },
@@ -16,10 +17,11 @@
     "title": "Harry Potter and the Sorcerer's Stone",
     "author": {
       "name": "J.K. Rowling",
-      "image": "https://ik.imagekit.io/qzwxtlokd/J._K._Rowling_2010.jpg?updatedAt=1696667156243"
+      "image": "https://ik.imagekit.io/qzwxtlokd/J._K._Rowling_2010.jpg?updatedAt=1696667156243",
+      "description": "Joanne Rowling, known by her pen name J.K. Rowling, is a British author, philanthropist, film producer, television producer, and screenwriter. She is best known for writing the Harry Potter fantasy series, which has won multiple awards and sold more than 500 million copies, becoming the best-selling book series in history."
     },
     "genre": "Fantasy",
-    "price":120,
+    "price": 120,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/harry_potter_and_the_philosopher_s_stone_wallpaper_by_spirit__of_adventure_deek1mn-414w-2x.jpg?updatedAt=1696664765556",
     "description": "The first novel in the Harry Potter series and Rowling's debut novel, it follows the adventures of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry."
   },
@@ -28,10 +30,11 @@
     "title": "To Kill a Mockingbird",
     "author": {
       "name": "Harper Lee",
-      "image": "https://ik.imagekit.io/qzwxtlokd/Photo_portrait_of_Harper_Lee_(To_Kill_a_Mockingbird_dust_jacket,_1960).jpg?updatedAt=1696667154378"
+      "image": "https://ik.imagekit.io/qzwxtlokd/Photo_portrait_of_Harper_Lee_(To_Kill_a_Mockingbird_dust_jacket,_1960).jpg?updatedAt=1696667154378",
+      "description": "Nelle Harper Lee (1926-2016) was an American novelist widely known for her novel 'To Kill a Mockingbird', which deals with the issues of racial injustice and moral growth in the American South. The book has won the Pulitzer Prize and has become a classic of modern American literature."
     },
     "genre": "Coming-of-age",
-    "price":330,
+    "price": 330,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/Roi-et-loiseau-pochette-avant.jpg?updatedAt=1696664758497",
     "description": "A Pulitzer Prize-winning novel that tells the story of Scout Finch, a young girl living in the American South during the Great Depression. Scout's father, Atticus Finch, is a lawyer who defends a black man falsely accused of rape."
   },
@@ -40,10 +43,11 @@
     "title": "Pride and Prejudice",
     "author": {
       "name": "Jane Austen",
-      "image": "https://ik.imagekit.io/qzwxtlokd/CassandraAusten-JaneAusten(c.1810)_hires.jpg?updatedAt=1696667156419"
+      "image": "https://ik.imagekit.io/qzwxtlokd/CassandraAusten-JaneAusten(c.1810)_hires.jpg?updatedAt=1696667156419",
+      "description": "Jane Austen (1775-1817) was an English novelist known primarily for her six major novels, including 'Pride and Prejudice'. Her works are noted for their wit, social criticism, and insight into the lives of early 19th-century British gentry."
     },
     "genre": "Romance",
-    "price":257,
+    "price": 257,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/PrideAndPrejudiceTitlePage.jpg?updatedAt=1696664765141",
     "description": "A romantic novel that tells the story of Elizabeth Bennet, a young woman who must decide whether or not to marry a wealthy suitor, Mr. Darcy."
   },
@@ -52,21 +56,24 @@
     "title": "1984",
     "author": {
       "name": "George Orwell",
-      "image": "https://ik.imagekit.io/qzwxtlokd/George_Orwell_press_photo.jpg?updatedAt=1696667155088"
+      "image": "https://ik.imagekit.io/qzwxtlokd/George_Orwell_press_photo.jpg?updatedAt=1696667155088",
+      "description": "George Orwell (1903-1950), whose real name was Eric Arthur Blair, was an English novelist, essayist, journalist, and critic. He is best known for his works 'Animal Farm' and 'Nineteen Eighty-Four', which highlight the dangers of totalitarianism and social injustice."
     },
     "genre": "Dystopian",
-    "price":673,
+    "price": 673,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/1984_first_edition_cover%20(1).jpg?updatedAt=1696664758489",
     "description": "A dystopian novel that tells the story of Winston Smith, a man who lives in a totalitarian society where the government controls every aspect of people's lives."
-  },{
+  },
+  {
     "id": 6,
     "title": "The Great Gatsby",
     "author": {
       "name": "F. Scott Fitzgerald",
-      "image": "https://ik.imagekit.io/qzwxtlokd/F._Scott_Fitzgerald_(1929_photo_portrait_by_Nickolas_Muray)_Cropped.jpg?updatedAt=1696667156929"
+      "image": "https://ik.imagekit.io/qzwxtlokd/F._Scott_Fitzgerald_(1929_photo_portrait_by_Nickolas_Muray)_Cropped.jpg?updatedAt=1696667156929",
+      "description": "Francis Scott Key Fitzgerald (1896-1940) was an American novelist and short story writer, widely regarded as one of the greatest American writers of the 20th century. He is best known for his novel 'The Great Gatsby', a classic of modern American literature."
     },
     "genre": "Classics",
-    "price":354,
+    "price": 354,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/The_Great_Gatsby_Cover_1925_Retouched.jpg?updatedAt=1696664764046",
     "description": "A novel set in the summer of 1922 about the young and mysterious millionaire Jay Gatsby and his passion for the beautiful Daisy Buchanan."
   },
@@ -75,10 +82,11 @@
     "title": "Brave New World",
     "author": {
       "name": "Aldous Huxley",
-      "image": "https://ik.imagekit.io/qzwxtlokd/Aldous_Huxley_psychical_researcher.png?updatedAt=1696667150802"
+      "image": "https://ik.imagekit.io/qzwxtlokd/Aldous_Huxley_psychical_researcher.png?updatedAt=1696667150802",
+      "description": "Aldous Leonard Huxley (1894-1963) was an English writer, philosopher, and prominent member of the Huxley family. He is best known for his dystopian novel 'Brave New World', which explores the potential dangers of a technologically advanced and highly controlled society."
     },
     "genre": "Dystopian",
-    "price":221,
+    "price": 221,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/BraveNewWorld_FirstEdition.jpg?updatedAt=1696664763958",
     "description": "A dystopian novel that explores the dangers of a technologically advanced and highly controlled society."
   },
@@ -87,10 +95,11 @@
     "title": "The Catcher in the Rye",
     "author": {
       "name": "J.D. Salinger",
-      "image": "https://ik.imagekit.io/qzwxtlokd/J._D._Salinger_(Catcher_in_the_Rye_portrait).jpg?updatedAt=1696667151308"
+      "image": "https://ik.imagekit.io/qzwxtlokd/J._D._Salinger_(Catcher_in_the_Rye_portrait).jpg?updatedAt=1696667151308",
+      "description": "Jerome David Salinger (1919-2010) was an American writer known for his novel 'The Catcher in the Rye'. He was considered one of the greatest American writers of the 20th century."
     },
     "genre": "Coming-of-age",
-    "price":426,
+    "price": 426,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/The_Catcher_in_the_Rye_(1951,_first_edition_cover).jpg?updatedAt=1696664763153",
     "description": "A novel narrated by a teenage boy who is disenchanted with the world and struggling to find his place in it."
   },
@@ -99,10 +108,11 @@
     "title": "Moby Dick",
     "author": {
       "name": "Herman Melville",
-      "image": "https://ik.imagekit.io/qzwxtlokd/Herman_Melville_by_Joseph_O_Eaton.jpg?updatedAt=1696667155401"
+      "image": "https://ik.imagekit.io/qzwxtlokd/Herman_Melville_by_Joseph_O_Eaton.jpg?updatedAt=1696667155401",
+      "description": "Herman Melville (1819-1891) was an American novelist, short story writer, and poet of the American Renaissance period. He is best known for his novel 'Moby-Dick', a classic of American literature."
     },
     "genre": "Adventure",
-    "price":658,
+    "price": 658,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/Moby-Dick_FE_title_page.jpg?updatedAt=1696664762047",
     "description": "An epic tale of obsession and revenge, centered around Captain Ahab's quest to kill the monstrous white whale Moby Dick."
   },
@@ -111,10 +121,11 @@
     "title": "The Hobbit",
     "author": {
       "name": "J.R.R. Tolkien",
-      "image": "https://ik.imagekit.io/qzwxtlokd/J._R._R._Tolkien,_ca._1925.jpg?updatedAt=1696668329153"
+      "image": "https://ik.imagekit.io/qzwxtlokd/J._R._R._Tolkien,_ca._1925.jpg?updatedAt=1696668329153",
+      "description": "John Ronald Reuel Tolkien (1892-1973) was an English writer, poet, philologist, and academic. He is best known as the author of 'The Hobbit' and 'The Lord of the Rings' trilogy, considered the foundations of modern fantasy literature."
     },
     "genre": "Fantasy",
-    "price":270,
+    "price": 270,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/The_Hobbit_-_The_Desolation_of_Smaug_theatrical_poster.jpg?updatedAt=1696664758815",
     "description": "A fantasy novel about the journey of Bilbo Baggins, a hobbit, who is persuaded to accompany a group of dwarves to reclaim their homeland from a dragon."
   },
@@ -123,10 +134,11 @@
     "title": "The Shining",
     "author": {
       "name": "Stephen King",
-      "image": "https://ik.imagekit.io/qzwxtlokd/Stephen_King,_Comicon.jpg?updatedAt=1696667149051"
+      "image": "https://ik.imagekit.io/qzwxtlokd/Stephen_King,_Comicon.jpg?updatedAt=1696667149051",
+      "description": "Stephen King is an American author of horror, supernatural fiction, suspense, crime, science-fiction, and fantasy novels. His books have sold more than 350 million copies and many have been adapted into films, television series, and comic books."
     },
     "genre": "Horror",
-    "price":270,
+    "price": 270,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/The_Shining_(1977)_front_cover,_first_edition.jpg?updatedAt=1696664762483",
     "description": "A horror novel that follows the story of a family that becomes the winter caretakers of an isolated hotel, where supernatural forces lead to terrifying events."
   },
@@ -135,10 +147,11 @@
     "title": "The Picture of Dorian Gray",
     "author": {
       "name": "Oscar Wilde",
-      "image": "https://ik.imagekit.io/qzwxtlokd/Oscar_Wilde_3g07095u-adjust.jpg?updatedAt=1696667154037"
+      "image": "https://ik.imagekit.io/qzwxtlokd/Oscar_Wilde_3g07095u-adjust.jpg?updatedAt=1696667154037",
+      "description": "Oscar Fingal O'Flahertie Wills Wilde (1854-1900) was an Irish poet and playwright. He is best known for his witty and flamboyant plays, as well as his novel 'The Picture of Dorian Gray'."
     },
     "genre": "Gothic",
-    "price":329,
+    "price": 329,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/doriangray.jpg?updatedAt=1696664762052",
     "description": "A gothic novel that tells the story of a man who remains youthful and handsome while a portrait of him ages and reflects his inner ugliness."
   },
@@ -147,10 +160,11 @@
     "title": "A Tale of Two Cities",
     "author": {
       "name": "Charles Dickens",
-      "image": "https://ik.imagekit.io/qzwxtlokd/Dickens_Gurney_head.jpg?updatedAt=1696667150098"
+      "image": "https://ik.imagekit.io/qzwxtlokd/Dickens_Gurney_head.jpg?updatedAt=1696667150098",
+      "description": "Charles Dickens (1812-1870) was an English writer and social critic. He created some of the world's best-known fictional characters and is regarded by many as the greatest novelist of the Victorian era."
     },
     "genre": "Historical Fiction",
-    "price":178,
+    "price": 178,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/taleoftwocities.jpg?updatedAt=1696664762789",
     "description": "A historical novel set during the French Revolution, depicting the plight of the French peasantry."
   },
@@ -159,10 +173,11 @@
     "title": "The Road",
     "author": {
       "name": "Cormac McCarthy",
-      "image": "https://ik.imagekit.io/qzwxtlokd/Cormac_McCarthy_(Child_of_God_author_portrait_-_high-res).jpg?updatedAt=1696667152928"
+      "image": "https://ik.imagekit.io/qzwxtlokd/Cormac_McCarthy_(Child_of_God_author_portrait_-_high-res).jpg?updatedAt=1696667152928",
+      "description": "Cormac McCarthy (born July 20, 1933) is an American novelist, playwright, and screenwriter. He has written ten novels in the Southern Gothic, western, and post-apocalyptic genres."
     },
     "genre": "Post-Apocalyptic",
-    "price":248,
+    "price": 248,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/The-road.jpg?updatedAt=1696665111374",
     "description": "A post-apocalyptic novel that follows a father and son's journey through a devastated landscape."
   },
@@ -171,21 +186,24 @@
     "title": "The Girl on the Train",
     "author": {
       "name": "Paula Hawkins",
-      "image": "https://ik.imagekit.io/qzwxtlokd/Paula_Hawkins_G%C3%B6teborg_Book_Fair_2015.jpg?updatedAt=1696667160429"
+      "image": "https://ik.imagekit.io/qzwxtlokd/Paula_Hawkins_G%C3%B6teborg_Book_Fair_2015.jpg?updatedAt=1696667160429",
+      "description": "Paula Hawkins is a Zimbabwean-British author best known for her psychological thriller novel 'The Girl on the Train', which debuted at number one on The New York Times Fiction Best Sellers of 2015 list."
     },
     "genre": "Thriller",
-    "price":323,
+    "price": 323,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/The_Girl_On_The_Train_(US_cover_2015).png?updatedAt=1696664762280",
     "description": "A psychological thriller that weaves a gripping story of love, obsession, and deception."
-  },{
+  },
+  {
     "id": 16,
     "title": "Animal Farm",
     "author": {
       "name": "George Orwell",
-      "image": "https://example.com/author-george-orwell.jpg"
+      "image": "https://example.com/author-george-orwell.jpg",
+      "description": "Eric Arthur Blair (1903-1950), known by his pen name George Orwell, was an English novelist, essayist, journalist, and critic. His work is characterized by keen intelligence and wit, a profound awareness of social injustice, an intense opposition to totalitarianism, a passion for clarity in language, and a belief in democratic socialism."
     },
     "genre": "Political Allegory",
-    "price":40,
+    "price": 40,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/animalfarm.jpg?updatedAt=1696664760619",
     "description": "A novella that uses a group of farm animals who rebel against their human farmer as an allegory of the events leading up to the Russian Revolution of 1917 and the early years of the Soviet Union."
   },
@@ -194,10 +212,11 @@
     "title": "The Silmarillion",
     "author": {
       "name": "J.R.R. Tolkien",
-      "image": "https://example.com/author-jrr-tolkien.jpg"
+      "image": "https://example.com/author-jrr-tolkien.jpg",
+      "description": "John Ronald Reuel Tolkien (1892-1973) was an English writer, poet, philologist, and academic. He is best known as the author of 'The Hobbit' and 'The Lord of the Rings' trilogy, considered the foundations of modern fantasy literature."
     },
     "genre": "Fantasy",
-    "price":382,
+    "price": 382,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/silmarillion.jpg?updatedAt=1696664758547",
     "description": "A collection of mythopoeic works that tells the story of the creation and early history of the world of Middle-earth, the setting of many of Tolkien's works."
   },
@@ -206,10 +225,11 @@
     "title": "The Casual Vacancy",
     "author": {
       "name": "J.K. Rowling",
-      "image": "https://ik.imagekit.io/qzwxtlokd/J._K._Rowling_2010.jpg?updatedAt=1696667156243"
+      "image": "https://ik.imagekit.io/qzwxtlokd/J._K._Rowling_2010.jpg?updatedAt=1696667156243",
+      "description": "Joanne Rowling, known by her pen name J.K. Rowling, is a British author, philanthropist, and screenwriter. She is best known for writing the 'Harry Potter' fantasy series, which has won multiple awards and sold more than 500 million copies, becoming the best-selling book series in history."
     },
     "genre": "Drama",
-    "price":539,
+    "price": 539,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/The_Casual_Vacancy.jpg?updatedAt=1696664758588",
     "description": "A novel for adults that explores the lives of the residents of a small English town after the death of a parish councilor."
   },
@@ -218,10 +238,11 @@
     "title": "Go Set a Watchman",
     "author": {
       "name": "Harper Lee",
-      "image": "https://ik.imagekit.io/qzwxtlokd/Photo_portrait_of_Harper_Lee_(To_Kill_a_Mockingbird_dust_jacket,_1960).jpg?updatedAt=1696667154378"
+      "image": "https://ik.imagekit.io/qzwxtlokd/Photo_portrait_of_Harper_Lee_(To_Kill_a_Mockingbird_dust_jacket,_1960).jpg?updatedAt=1696667154378",
+      "description": "Nelle Harper Lee (1926-2016) was an American novelist widely known for her novel 'To Kill a Mockingbird', which won the Pulitzer Prize. 'Go Set a Watchman' is a sequel to 'To Kill a Mockingbird', presenting the later lives of its characters."
     },
     "genre": "Coming-of-age",
-    "price":732,
+    "price": 732,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/US_cover_of_Go_Set_a_Watchman.jpg?updatedAt=1696664758561",
     "description": "A novel set in the mid-1950s, providing a sequel to Lee's famous novel 'To Kill a Mockingbird', portraying the later lives of the characters from the original work."
   },
@@ -230,10 +251,11 @@
     "title": "Emma",
     "author": {
       "name": "Jane Austen",
-      "image": "https://ik.imagekit.io/qzwxtlokd/CassandraAusten-JaneAusten(c.1810)_hires.jpg?updatedAt=1696667156419"
+      "image": "https://ik.imagekit.io/qzwxtlokd/CassandraAusten-JaneAusten(c.1810)_hires.jpg?updatedAt=1696667156419",
+      "description": "Jane Austen (1775-1817) was an English novelist known for her six major novels, including 'Pride and Prejudice', 'Sense and Sensibility', and 'Emma'. Her works critique the British landed gentry at the end of the 18th century and are part of the transition to 19th-century literary realism."
     },
     "genre": "Romance",
-    "price":435,
+    "price": 435,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/EmmaTitlePage.jpg?updatedAt=1696664759782",
     "description": "A novel that follows the story of Emma Woodhouse, a young woman who is determined to be a matchmaker and meddle in the romantic affairs of others."
   },
@@ -245,7 +267,7 @@
       "image": "https://example.com/author-george-orwell.jpg"
     },
     "genre": "Dystopian",
-    "price":742,
+    "price": 742,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/1984_first_edition_cover%20(1).jpg?updatedAt=1696664758489",
     "description": "A dystopian novel that explores a totalitarian society where critical thought is suppressed under the all-seeing eye of Big Brother."
   },
@@ -257,7 +279,7 @@
       "image": "https://example.com/author-jrr-tolkien.jpg"
     },
     "genre": "Fantasy",
-    "price":782,
+    "price": 782,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/The_Hobbit_-_The_Desolation_of_Smaug_theatrical_poster.jpg?updatedAt=1696664758815",
     "description": "A fantasy novel that continues the journey of Bilbo Baggins as he and a group of dwarves seek to reclaim their homeland from the fearsome dragon Smaug."
   },
@@ -269,7 +291,7 @@
       "image": "https://ik.imagekit.io/qzwxtlokd/J._K._Rowling_2010.jpg?updatedAt=1696667156243"
     },
     "genre": "Fantasy",
-    "price":436,
+    "price": 436,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/Harry_Potter_and_the_Prisoner_of_Azkaban.jpg?updatedAt=1696664758606",
     "description": "The third novel in the Harry Potter series, following the adventures of Harry, Hermione, and Ron as they uncover the mystery of Sirius Black."
   },
@@ -281,7 +303,7 @@
       "image": "https://ik.imagekit.io/qzwxtlokd/Photo_portrait_of_Harper_Lee_(To_Kill_a_Mockingbird_dust_jacket,_1960).jpg?updatedAt=1696667154378"
     },
     "genre": "Coming-of-age",
-    "price":325,
+    "price": 325,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/To_Kill_a_Mockingbird_(first_edition_cover).jpg?updatedAt=1696664765629",
     "description": "A collector's edition of the Pulitzer Prize-winning novel that delves into themes of racial injustice and moral growth in the American South."
   },
@@ -293,7 +315,7 @@
       "image": "https://ik.imagekit.io/qzwxtlokd/CassandraAusten-JaneAusten(c.1810)_hires.jpg?updatedAt=1696667156419"
     },
     "genre": "Horror",
-    "price":562,
+    "price": 562,
     "coverImage": "https://ik.imagekit.io/qzwxtlokd/PrideandPrejudiceandZombiesCover.jpg?updatedAt=1696664758735",
     "description": "A parody novel that combines the classic Jane Austen story with elements of zombie fiction, adding an undead twist to the beloved tale."
   }
