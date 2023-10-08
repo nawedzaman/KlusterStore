@@ -3,10 +3,6 @@
   margin: 1px;
 }
 
-.books-page {
-  margin-left: 10px
-}
-
 .sidebar {
   height: auto;
   width: 200px;
@@ -16,14 +12,14 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
 }
+
 .genreMenu,
 .authorMenu {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top:10px;
+  margin-top: 10px;
 }
 
 .genreMenu li,
@@ -44,16 +40,16 @@
 
 .genreMenu input,
 .authorMenu input {
-  margin-right: 10px;
+  margin-right: 10px;
 }
- .sidebar button {
+
+.sidebar button {
   border: none;
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
   margin-left: 10px;
   float: right;
-
 }
 
 .options {
@@ -62,17 +58,13 @@
   gap: 10px;
 }
 
-/* //css for card */
+/* CSS for card */
 
 /* Main container for books page */
-.card-details-css{
+.card-details-css {
   margin-top: 110px;
 }
-.books-container {
-  display: flex;
-}
 
-/* Book page styles */
 .books-page {
   padding: 20px;
 }
@@ -104,7 +96,7 @@
   padding: 10px;
   cursor: pointer;
   transition: transform 0.2s;
-  background-color:#fff;
+  background-color: #fff;
   box-sizing: border-box;
   min-width: 300px;
 }
@@ -138,8 +130,6 @@
 
 /* details page */
 
-/* BookDetailsPage.css */
-/* BookDetailsPage.css */
 /* BookDetailsPage.css */
 .book-details {
   display: flex;
@@ -196,4 +186,150 @@
 
 .cart-link:hover {
   background-color: #007BFF; /* Slightly darker orange on hover */
+}
+
+/* Order summary page CSS */
+.shopping-cart {
+  display: flex;
+  margin: 10px;
+  width: 100%;
+  min-height: 100%;
+  background-color: whitesmoke;
+  flex: 1;
+}
+
+.cart-items {
+  width: 70%;
+  padding: 30px;
+}
+
+.cart-items h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.cart-items .cart-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column-reverse; /* Reverse the order */
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  width: 100%; /* Set the fixed width to 100% */
+}
+
+.cart-item:hover {
+  background-color: #f8f8f8;
+}
+
+.item-thumbnail img {
+  max-width: 80px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.item-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.item-price {
+  font-size: 16px;
+  color: #777;
+}
+
+.item-actions button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 8px 12px;
+  font-size: 18px;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.item-actions button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.cart-total {
+  flex: 0 0 30%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 10px; /* Add margin to separate the total from cart items */
+}
+
+.cart-total h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.checkout-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the order summary section */
+.order-summary {
+  flex: 1;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.order-summary h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.order-total,
+.discount-applied,
+.final-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.checkout-button-class {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
