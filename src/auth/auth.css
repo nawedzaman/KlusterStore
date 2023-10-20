@@ -16,7 +16,7 @@ section {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   max-width: 300px;
-  width: 100%;
+  width:20%;
 }
 
 .left-content p {
@@ -51,6 +51,7 @@ button.login {
   color: #fff;
   font-size: 16px;
   cursor: pointer;
+  margin-top: 20px;
 }
 button.signup {
   width: 100%;
